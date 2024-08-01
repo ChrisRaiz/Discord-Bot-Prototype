@@ -18,14 +18,15 @@ Initial build to understand the basics of programming a discord bot utilizing th
 2. Update DISCORD_TOKEN to contain the discord bot's token | Replace - {your-bot-token}
 
    a. If you don't know the token, you'll need to click Reset Token to generate a new one
+   
    b. Token Location = Discord_Developer_Portal -> Your_Application -> Bot_Tab -> Token_Section
 
-3. Update DISCORD_GUILD to contain the name of the discord guild it's associated with | Replace - Guild Name
+4. Update DISCORD_GUILD to contain the name of the discord guild it's associated with | Replace - Guild Name
 
    a. Don't remove the quotation marks, only change the characters inside of them
 
-4. Initialize the .env file by removing example from example.env | example.env -> .env
-5. Save the .env file
+5. Initialize the .env file by removing example from example.env | example.env -> .env
+6. Save the .env file
 
 ## Initializing Client/Bot
 
