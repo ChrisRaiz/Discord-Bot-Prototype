@@ -12,11 +12,16 @@ Initial build to understand the basics of programming a discord bot utilizing th
 1. Open a terminal in VSCode (Text Editor may differ)
 2. Run "pip install -U python-dotenv"
 
-## How to connect the Discord Bot Token
+## Setting up Environment Variables
 
-1. In example.env, update DISCORD_TOKEN to contain the discord bot's token
-2. Initialize the .env file by removing example from example.env (example.env -> .env)
-3. Save the .env file
+1. Open the example.env file in VSCode (Text Editor may differ)
+2. Update DISCORD_TOKEN to contain the discord bot's token | Replace - {your-bot-token}
+   2a. If you don't know the token, you'll need to click Reset Token to generate a new one
+   2b. Token Location = Discord_Developer_Portal -> Your_Application -> Bot_Tab -> Token_Section
+3. Update DISCORD_GUILD to contain the name of the discord guild it's associated with | Replace - Guild Name
+   3a. Don't remove the quotation marks, only change the characters inside of them
+4. Initialize the .env file by removing example from example.env | example.env -> .env
+5. Save the .env file
 
 ## Initializing Client/Bot
 
